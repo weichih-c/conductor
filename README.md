@@ -100,7 +100,7 @@ $ './gradlew :conductor-java-sdk:spotlessApply'
 
 
 ## Run with docker-compose
-‵``shell
+```shell
 $ docker-compose -f docker/docker-compose.yaml up -d
 ```
 
