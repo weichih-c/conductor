@@ -32,3 +32,5 @@ lib/
 build/
 */build/
 
+# log file
+logs/
