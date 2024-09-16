@@ -84,6 +84,8 @@ services:
       - /etc/timezone:/etc/timezone:ro
       - /etc/localtime:/etc/localtime:ro
       - /home/kasm-user/Desktop/IdeaProjects/conductor/docker/server/config/redis.conf:/usr/local/etc/redis/redis.conf
+    networks:
+      - internal
     entrypoint:
       - redis-server
       - /usr/local/etc/redis/redis.conf
